@@ -23,7 +23,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-<<<<<<< HEAD
 LOCAL_MODULE := Lawnchair
 LOCAL_MODULE_OWNER := rr
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
@@ -44,8 +43,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-=======
->>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
 LOCAL_MODULE := Wallpapers
 LOCAL_MODULE_OWNER := rr
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk

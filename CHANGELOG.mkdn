@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 # RootBox Oreo Version 2.0 Changelog
-=======
-# Resurrection Remix Oreo Version 6.0.0 Changelog
->>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
 
 
 02-17-2018
