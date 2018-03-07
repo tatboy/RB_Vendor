@@ -1,5 +1,11 @@
 	
+<<<<<<< HEAD
 	● RootBox OS Oreo
+=======
+	● Resurrection Remix OS Oreo
+	
+	● Crowdin for translations : https://crowdin.com/project/resurrectionremix/
+>>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
 	
 	● Main Features ▼
 

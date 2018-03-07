@@ -153,7 +153,15 @@ PRODUCT_PACKAGES += \
 
 # Custom rr packages
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     LineageSettingsProvider \
+=======
+    AudioFX \
+    LineageSettingsProvider \
+    Eleven \
+    ExactCalculator \
+    Trebuchet \
+>>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
     LockClock \
     Updater \
     SnapdragonCamera2 \
@@ -161,7 +169,12 @@ PRODUCT_PACKAGES += \
     WeatherProvider \
     OmniJaws \
     OmniStyle \
+<<<<<<< HEAD
     ResurrectionOTA
+=======
+    ResurrectionOTA \
+    ResurrectionStats
+>>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
 
 # Berry styles
 PRODUCT_PACKAGES += \
@@ -252,8 +265,11 @@ PRODUCT_COPY_FILES += \
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
     GoogleClock \
+<<<<<<< HEAD
     Lawnchair \
     Lawnfeed \
+=======
+>>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
     Wallpapers
  
 # rsync
@@ -300,11 +316,19 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/rr/overlay/common
 
+<<<<<<< HEAD
 PRODUCT_VERSION = 2.0
 ifneq ($(RR_BUILDTYPE),)
 RR_VERSION := RB-OREO-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)-$(RR_BUILDTYPE)
 else
 RR_VERSION := RB-OREO-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)
+=======
+PRODUCT_VERSION = 6.0.0
+ifneq ($(RR_BUILDTYPE),)
+RR_VERSION := RR-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)-$(RR_BUILDTYPE)
+else
+RR_VERSION := RR-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)
+>>>>>>> f2aef2804ede1ae3c0fec89c18ac54989b7e86ce
 endif
 
 PRODUCT_GENERIC_PROPERTIES += \
